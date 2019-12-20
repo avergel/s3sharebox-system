@@ -1,0 +1,9 @@
+version: '2.2'
+
+services:
+  app-server:
+    build: .
+    container_name: s3sharebox-system
+    ports:
+      - "8080:8080"
+    restart: always

@@ -1,0 +1,11 @@
+aws cognito-idp admin-initiate-auth --user-pool-id eu-west-1_BijqpF7h0 --client-id 64qcdf5f5mrc1m8kr1ostsc9j5 --auth-flow ADMIN_NO_SRP_AUTH --auth-parameters USERNAME=straw.toro@gmail.com,PASSWORD=@fbAH4w3
+
+
+aws cognito-idp admin-respond-to-auth-challenge --user-pool-id eu-west-1_BijqpF7h0 --client-id 64qcdf5f5mrc1m8kr1ostsc9j5 --challenge-name NEW_PASSWORD_REQUIRED --challenge-responses NEW_PASSWORD=Memia@86,USERNAME=47a79164-8efa-4c5e-87ea-e43d7c013ef2 --session "XzaTY4sIQF38R1zEFpJkjkwB0RM2YyM9Yy7aYX42KxyeOycwAorizMNwU7pbuV51DJv4zCAo9-ZkGmaiXiHf8FwWXHZz5fjfYoKiEdoW7lBQ-IE80T3qKjkTIP-bA9_LMwZTjnBf8ikmhVB1oiDh2-hfPHATq3mMN-LGu1Ospe6MoHkHijoCydrP5NRMrb0-woY0S8Ofb7bZflXB7LzjMfKoFTCqhS2A6M2YSOL3Unf_YEIKMl0HaP7ukDZCSjTfhZ8CFP-Jf0jqNp9iwIFwl2SFp_kPCewntuFrc-1ylwx9OJW8l7aOYhiqBBin6kRB7Gid5wmYqVJzkno3VSuqX2136HQGy1JVLze7W7rEMqoUsP1FxJHZTMYF8F4MA8POTfdmmL_r5ro6visb1gU9EjWV1PpdqHSfrmxr9mhi9aBvZjm14b7QEQ33X8zp7PZ9mS9utr8PPcspYvZZjdrv4-JlMoC3A84nmTql67cM3FoNL4KGzNXAAXvDJ5aT7Go4C1RpFBCKgnBzWKdZv2DK8TDWH7uUuxPC4VAjYsmZxjpVVp53p4PdmuJDfqelD_5SA_aALOQkM52rbJyEEqiCD-rx2aY2jeBuwErBUyGdLwuPNfDZMC5IZcKfoMeIIQD1WjImxvzZLcqRp69YlmvmcE6iCpnEE89AI8FJZT-4wzskM8VzXBZHIYyQQYTR4IXERg3JZTtu2YB-CZ0p3g9lA0LfVir6fwDRibC0ul7sGozjSSvPTILJjdg-azCVVIjRVeetZcoLUSFfCBNSEgKfw0KsXtzMDwS7jZac52QBDvH03v056ersPX7CB5qosOveNENTuTv9CNF8CqoHQOZmJuKfRSonKNtYDPkolVzNvRx8pWYWhIhwptgPAiGbubx7IYWe1sOGOToijeNAu_Lbsfg4fSaTF2sQ_I9JC15pLEQ0Xns6lH9eN2s69Q_EQZEv3wtYwjoY9a_xcSGNFhxlF2HS71MeEswztz_UUxAevQ-MH4Vg"
+
+
+
+aws cognito-idp admin-respond-to-auth-challenge --user-pool-id %USER POOL ID% --client-id %CLIENT ID% --challenge-name NEW_PASSWORD_REQUIRED --challenge-responses NEW_PASSWORD=%DESIRED PASSWORD%,USERNAME=%USERS USERNAME% --session %SESSION KEY FROM PREVIOUS COMMAND with ""%
+
+
+
